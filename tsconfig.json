@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "outDir": "dist",
+    "moduleResolution": "nodenext",
+    "baseUrl": "./",
+    "types": ["vitest/globals"]
+  },
+  "include": ["src/**/*.ts"]
+}
